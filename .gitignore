@@ -1,0 +1,9 @@
+# 秘密情報を誤ってアップしないための除外設定
+.env
+.env.*
+*.pem
+*.key
+*secret*
+*credential*
+*token*
+.DS_Store
